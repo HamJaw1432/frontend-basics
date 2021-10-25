@@ -1,0 +1,60 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+h1 {
+    margin: 0;
+    height: 70pt;
+}
+h2 {
+    margin: 0;
+}
+
+h3 {
+    margin: 0;
+}
+
+p{
+ padding: 0;
+ margin: 0;
+}
+
+header {
+    background-color: lightcoral;
+}
+
+.body-container{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 2;
+}
+
+.LSide {
+    background-color: pink;
+    padding: 20px 0px;
+}
+
+.RSide {
+    background-color: powderblue;
+    width: 100pt;
+    padding: 20px 0px;
+}
+
+.Content {
+    background-color: yellow;
+    flex-grow: 2;
+    padding: 20px 20px;
+}
+
+footer {
+    background-color: #b19cd9;
+    padding: 20px;
+    flex: 0;
+}
