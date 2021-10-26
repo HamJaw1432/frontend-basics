@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.contact-me-area{
+    margin: 50px;
+    width: 80%;
+    background-color: lightgray;
+}
+
+h1 {
+    font-weight: 450;
+}
+
+h2 {
+    font-weight: 100;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding: 50px
+}
+
+form label{
+    padding: 10px 0px;
+}
+
+form input, form textarea{
+    padding: 10px;
+}
+
+
+
+.send-message-button{
+    width: 200px;
+    height: 50px;
+    align-self: center;
+    margin: 50px;
+    color: white;
+    background-color: rgb(36, 180, 36);
+    border-radius: 20px;
+    border: 0;
+    font-weight: 700;
+    cursor: pointer;
+}
