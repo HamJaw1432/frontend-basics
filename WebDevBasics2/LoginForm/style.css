@@ -11,3 +11,10 @@ body{
 color: white;
 background-color: darkblue;
 }
+
+@media only screen and (max-width: 360px) {
+  .main-form {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+}
